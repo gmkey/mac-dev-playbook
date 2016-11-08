@@ -5,7 +5,7 @@ configure_sudoers: yes
 
 dotfiles_repo: https://github.com/gmkey/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Projects/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitconfig
@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - curl
   - dc3dd
   - dnsmasq
+  - dockutil
   - dos2unix
   - fdupes
   - findutils
@@ -54,7 +55,7 @@ homebrew_installed_packages:
   - python
   - sqlite
   # - mcrypt
-   - mysql
+  - mysql
   - nmap
   - rbenv
   - ruby-build
@@ -100,6 +101,7 @@ homebrew_cask_apps:
   - skype
   # - skitch
   - slack
+  - spotify
   # - sublime-text
   # - transmit
   # - vagrant
