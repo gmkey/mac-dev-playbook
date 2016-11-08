@@ -3,7 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/gmkey/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
@@ -14,41 +14,6 @@ dotfiles_files:
   - .osx
   - .vimrc
 
-homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - git
-  - go
-  - gpg
-  - hub
-  - httpie
-  - iperf
-  - libdvdcss
-  - libevent
-  - packer
-  - python
-  - sqlite
-  - mcrypt
-  - mysql
-  - nmap
-  - npm
-  - nvm
-  - php70
-  - php70-mcrypt
-  - php70-xdebug
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - subversion
-  - openssl
-  - pv
-  - drush
-  - wget
-  - wrk
-
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
@@ -57,26 +22,86 @@ homebrew_taps:
   - homebrew/php
   - homebrew/versions
 
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - autoconf
+  - bash-completion
+  - brew-cask-completion
+  - curl
+  - dc3dd
+  - dnsmasq
+  - dos2unix
+  - fdupes
+  - findutils
+  - fontconfig
+  - freetype 
+  # - doxygen
+  - gettext
+  - git
+  - go
+  - gpg
+  - grep
+  - hub
+  # - httpie
+  - inkscape
+  # - iperf
+  - libdvdcss
+  # - libevent
+  - mkclean
+  - mkvalidator
+  - mkvtoolnix
+  # - packer
+  - python
+  - sqlite
+  # - mcrypt
+   - mysql
+  - nmap
+  - rbenv
+  - ruby-build
+  # - npm
+  # - nvm
+  # - php70
+  # - php70-mcrypt
+  # - php70-xdebug
+  - ssh-copy-id
+  - tmux
+  - cowsay
+  - readline
+  - subversion
+  - openssl
+  # - pv
+  # - drush
+  - testdisk
+  - tree
+  - wakeonlan
+  - wget
+  # - wrk
+
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
+  - appcleaner
+  # - docker
   - dropbox
-  - fing
+  # - fing
   - firefox
+  - google-adwords
   - google-chrome
+  - google-drive
+  - gimp
   - handbrake
-  - kdiff3
-  - licecap
-  - limechat
-  - macvim
-  - yujitach-menumeters # Note: Using forked version for 10.11+ support
-  - nvalt
-  - sequel-pro
+  # - kdiff3
+  - libreoffice
+  # - licecap
+  # - limechat
+  # - macvim
+  # - yujitach-menumeters # Note: Using forked version for 10.11+ support
+  #- nvalt
+  # - sequel-pro
   - skype
-  - skitch
+  # - skitch
   - slack
-  - sublime-text
-  - transmit
-  - vagrant
-  - virtualbox
+  # - sublime-text
+  # - transmit
+  # - vagrant
+  # - virtualbox
   - vlc
