@@ -1,3 +1,3 @@
 ---
 - name: gmkey.dotfiles
-- name: gmkey.homebrew
+- name: geerlingguy.homebrew dotfiles_repo="https://github.com/gmkey/dotfiles.git"
