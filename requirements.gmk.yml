@@ -1,0 +1,9 @@
+---
+<<<<<<< HEAD
+- name: gmkey.dotfiles
+- name: geerlingguy.homebrew dotfiles_repo="https://github.com/gmkey/dotfiles.git"
+=======
+- name: geerlingguy.dotfiles
+- name: geerlingguy.homebrew
+- name: geerlingguy.mas
+>>>>>>> upstream/master
